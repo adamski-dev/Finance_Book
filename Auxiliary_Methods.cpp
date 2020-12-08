@@ -44,24 +44,7 @@ int Auxiliary_Methods:: check_how_many_days_has_this_month(int year, int month)
     break;
     }
 }
-/*
-bool Auxiliary_Methods:: user_specified_date_format_check (string date)
-{
-    if ((date[0] != '2')||(date[1] != '0')) {cout << "Year must be between 2000 and now..."; Sleep (2000); return false;}
-    if ((date[4] != '-')||(date[7] != '-')||(date.size()!=10)) {cout << "Date entered in incorrect format..."; Sleep (2000); return false;}
 
-    for (int i=0; i<1; i++)
-    {
-    if ((date[2] == '0')||(date[2] == '1')||(date[2] == '2')||(date[2] == '3')) continue; else return false;
-    if ((date[3] == '0')||(date[3] == '1')||(date[3] == '2')||(date[3] == '3')||(date[3] == '4')||(date[3] == '5')||(date[3] == '6')||(date[3] == '7')||(date[3] == '8')||(date[3] =='9')) continue; else return false;
-    if ((date[5] == '0')||(date[5] == '1')) continue; else return false;
-    if ((date[6] == '0')||(date[6] == '1')||(date[6] == '2')||(date[6] == '3')||(date[6] == '4')||(date[6] == '5')||(date[6] == '6')||(date[6] == '7')||(date[6] == '8')||(date[6] == '9')) continue; else return false;
-    if ((date[8] == '0')||(date[8] == '1')||(date[8] == '2')||(date[8] == '3')) continue; else return false;
-    if ((date[9] == '0')||(date[9] == '1')||(date[9] == '2')||(date[9] == '3')||(date[9] == '4')||(date[9] == '5')||(date[9] == '6')||(date[9] == '7')||(date[9] == '8')||(date[9] == '9')) continue; else return false;
-    }
-   return true;
-}
-*/
 bool Auxiliary_Methods:: user_specified_date_format_check (string date)
 {
     if ((date[4] != '-')||(date[7] != '-')||(date.size()!=10))
