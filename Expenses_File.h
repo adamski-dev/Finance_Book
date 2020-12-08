@@ -14,6 +14,7 @@ class Expenses_File: public Xml_File
 
 public:
 
+    Expenses_File(){last_expense_id_number = 0;};
     void write_expense_to_file (Expense expense);
     vector<Expense> import_expenses_from_file (int logged_user_id);
     int get_last_expense_id ();

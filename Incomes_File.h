@@ -14,6 +14,7 @@ class Incomes_File: public Xml_File
 
 public:
 
+    Incomes_File(){last_income_id_number = 0;};
     void write_income_to_file (Income income);
     vector<Income> import_incomes_from_file (int logged_user_id);
     int get_last_income_id ();

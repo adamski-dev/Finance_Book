@@ -37,13 +37,9 @@ User Users_Management::get_new_user_data()
     return user;
 }
 
-
 int Users_Management::get_new_user_id()
 {
-    if (users.empty() == true)
-        return 1;
-    else
-        return users.back().get_user_id() + 1;
+   return (users.empty()) ? 1 : users.back().get_user_id() + 1;
 }
 
 bool Users_Management::does_login_already_exist_check(string login)
