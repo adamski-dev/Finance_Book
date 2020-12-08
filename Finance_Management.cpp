@@ -68,7 +68,7 @@ void Finance_Management::add_expense()
 
     while ((select != 'Y')&&(select != 'y')&&(select != 'N')&&(select != 'n'))
     {
-            cout << "Please type in letter Y if you would like to log income with today's date, " << endl;
+            cout << "Please type in letter Y if you would like to log expense with today's date, " << endl;
             cout << "or letter N if different: ";
             cin >> select;
     }
@@ -109,7 +109,7 @@ void Finance_Management::add_expense()
 
 void Finance_Management::current_month_data_sheet_display()
 {
-    sort( incomes.begin( ), incomes.end( ), [ ]( Income& low_date, Income& high_date ){return low_date.get_date() < high_date.get_date();});
+    sort( incomes.begin( ), incomes.end( ), [ ]( Income & low_date, Income & high_date ){return low_date.get_date() < high_date.get_date();});
     sort( expenses.begin( ), expenses.end( ), [ ]( Expense & low_date, Expense & high_date ){return low_date.get_date() < high_date.get_date();});
 
 
@@ -148,12 +148,12 @@ void Finance_Management::current_month_data_sheet_display()
     if (sum_of_incomes > sum_of_expenses) cout << "You have generated: " << sum_of_incomes - sum_of_expenses << " euro savings this month.";
     if (sum_of_incomes < sum_of_expenses) cout << "Your expenses this month exceeded your incomes by: " << sum_of_expenses - sum_of_incomes << " euro.";
     if (sum_of_incomes == sum_of_expenses) cout << "Your expenses are equal to your incomes this month.";
-    cout << endl << endl << endl << endl << system ("pause");
+    cout << endl << endl << system ("pause");
 }
 
 void Finance_Management::last_month_data_sheet_display()
 {
-    sort( incomes.begin( ), incomes.end( ), [ ]( Income& low_date, Income& high_date ){return low_date.get_date() < high_date.get_date();});
+    sort( incomes.begin( ), incomes.end( ), [ ]( Income & low_date, Income & high_date ){return low_date.get_date() < high_date.get_date();});
     sort( expenses.begin( ), expenses.end( ), [ ]( Expense & low_date, Expense & high_date ){return low_date.get_date() < high_date.get_date();});
 
     float sum_of_incomes = 0;
@@ -191,7 +191,7 @@ void Finance_Management::last_month_data_sheet_display()
     if (sum_of_incomes > sum_of_expenses) cout << "You have generated: " << sum_of_incomes - sum_of_expenses << " euro savings last month.";
     if (sum_of_incomes < sum_of_expenses) cout << "Your expenses last month exceeded your incomes by: " << sum_of_expenses - sum_of_incomes << " euro.";
     if (sum_of_incomes == sum_of_expenses) cout << "Your expenses are equal to your incomes last month.";
-    cout << endl << endl << endl << endl << system ("pause");
+    cout << endl << endl << system ("pause");
 }
 
 void Finance_Management::set_date_period_data_sheet_display ()
@@ -255,6 +255,6 @@ void Finance_Management::set_date_period_data_sheet_display ()
     if (sum_of_incomes > sum_of_expenses) cout << "You have generated: " << sum_of_incomes - sum_of_expenses << " euro savings in the set date period.";
     if (sum_of_incomes < sum_of_expenses) cout << "Your expenses in the set date period exceeded your incomes by: " << sum_of_expenses - sum_of_incomes << " euro.";
     if (sum_of_incomes == sum_of_expenses) cout << "Your expenses are equal to your incomes in the set date period.";
-    cout << endl << endl << endl << endl << system ("pause");
+    cout << endl << endl << system ("pause");
 }
 
