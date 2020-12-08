@@ -1,0 +1,123 @@
+# depslib dependency file v1.0
+1607413078 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\main.cpp
+	<iostream>
+	"Finance_Book.h"
+
+1606813234 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\user.cpp
+	"User.h"
+
+1606813431 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\user.h
+	<iostream>
+
+1607412953 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\users_management.cpp
+	"Users_Management.h"
+
+1607411270 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\users_management.h
+	<vector>
+	"User.h"
+	"Users_File.h"
+	"Auxiliary_Methods.h"
+
+1607326232 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\xml_file.cpp
+	"Xml_File.h"
+
+1607410931 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\xml_file.h
+	<iostream>
+
+1606319854 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\markup.cpp
+	<stdio.h>
+	"Markup.h"
+	<errno.h>
+	<iconv.h>
+	<windows.h>
+	<mbstring.h>
+
+1606319854 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\markup.h
+	<stdlib.h>
+	<string.h>
+	<string>
+	<afx.h>
+
+1607331889 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\users_file.cpp
+	"Users_File.h"
+	"Markup.h"
+
+1607410783 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\users_file.h
+	<iostream>
+	<vector>
+	"User.h"
+	"Xml_File.h"
+
+1607352498 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\finance_book.cpp
+	"Finance_Book.h"
+
+1607410883 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\finance_book.h
+	"Users_Management.h"
+	"Finance_Management.h"
+
+1607414113 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\finance_management.cpp
+	"Finance_Management.h"
+
+1607410611 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\finance_management.h
+	<vector>
+	<windows.h>
+	<algorithm>
+	"Income.h"
+	"Incomes_File.h"
+	"Expense.h"
+	"Expenses_File.h"
+	"Auxiliary_Methods.h"
+
+1607100422 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\finance_support.cpp
+	"Finance_Support.h"
+
+1606984014 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\finance_support.h
+	<iostream>
+
+1606913413 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\income.cpp
+	"Income.h"
+
+1606982292 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\income.h
+	"Finance_Support.h"
+
+1607414413 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\incomes_file.cpp
+	"Incomes_File.h"
+	"Markup.h"
+
+1607412953 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\incomes_file.h
+	<iostream>
+	<vector>
+	"Income.h"
+	"Xml_File.h"
+
+1607411224 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\auxiliary_methods.cpp
+	"Auxiliary_Methods.h"
+
+1607411270 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\auxiliary_methods.h
+	<algorithm>
+	<iostream>
+	<sstream>
+	<windows.h>
+
+1607102239 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\expense.cpp
+	"Expense.h"
+
+1607102199 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\expense.h
+	"Finance_Support.h"
+
+1607414413 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\expenses_file.cpp
+	"Expenses_File.h"
+	"Markup.h"
+
+1607412953 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\expenses_file.h
+	<iostream>
+	<vector>
+	"Expense.h"
+	"Xml_File.h"
+
+1607330081 source:c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\data_sheet.cpp
+	"Data_Sheet.h"
+
+1607407979 c:\users\k105686\desktop\przyszly programista\zadania domowe\finance book - project\finance book\data_sheet.h
+	<iostream>
+
